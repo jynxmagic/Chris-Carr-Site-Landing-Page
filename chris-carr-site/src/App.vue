@@ -48,9 +48,12 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Header from "./components/Header.vue";
-import Slide1 from "./components/Slide1.vue";
-import Slide2 from "./components/Slide2.vue";
+import Slide1 from "./components/Slides/Slide1.vue";
+import Slide2 from "./components/Slides/Slide2.vue";
 import Slide3 from "./components/Slides/Slide3.vue";
+import Slide3 from "./components/Slides/Slide4.vue";
+import Slide3 from "./components/Slides/Slide5.vue";
+import Slide3 from "./components/Slides/Slide6.vue";
 import Slide7 from "./components/Slides/Slide7.vue";
 
 export default {
@@ -61,6 +64,9 @@ export default {
 		Slide1,
 		Slide2,
 		Slide3,
+    Slide4,
+    Slide5,
+    Slide6,
 		Slide7,
 	},
 };

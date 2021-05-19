@@ -33,7 +33,9 @@ export default {
     let fadeOut = ref("");
 
     onMounted(() => {
-      fadeOut = "fadeOut";
+      document.addEventListener("load", () => {
+        fadeOut = "fadeOut";
+      });
     });
 
     return { bgVid, fadeOut };

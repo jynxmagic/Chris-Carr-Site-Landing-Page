@@ -17,51 +17,67 @@
                       volutpat, massa lacus tempus leo.
                     </p>
                   </div>
-                  <div class="facts-list owl-carousel">
-                    <div class="item animate" data-animate="fadeInUp">
-                      <div class="counter-box">
-                        <i
-                          class="fa fa-trophy counter-icon"
-                          aria-hidden="true"
-                        ></i
-                        ><span class="count-number">32</span> Awards Won
-                      </div>
-                    </div>
-                    <div class="item animate" data-animate="fadeInUp">
-                      <div class="counter-box">
-                        <i
-                          class="fa fa-graduation-cap counter-icon"
-                          aria-hidden="true"
-                        ></i
-                        ><span class="count-number">4</span> Degrees
-                      </div>
-                    </div>
-                    <div class="item animate" data-animate="fadeInUp">
-                      <div class="counter-box">
-                        <i
-                          class="fa fa-desktop counter-icon"
-                          aria-hidden="true"
-                        ></i
-                        ><span class="count-number">12</span> Working Years
-                      </div>
-                    </div>
-                    <div class="item animate" data-animate="fadeInUp">
-                      <div class="counter-box">
-                        <i
-                          class="fa fa-support counter-icon"
-                          aria-hidden="true"
-                        ></i
-                        ><span class="count-number">6</span> Team Members
-                      </div>
-                    </div>
-                    <div class="item animate" data-animate="fadeInUp">
-                      <div class="counter-box">
-                        <i
-                          class="fa fa-certificate counter-icon"
-                          aria-hidden="true"
-                        ></i
-                        ><span class="count-number">10</span> Certificates
-                      </div>
+                  <div class="glide facts-list">
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+                        <li
+                          class="glide__slide animate"
+                          data-animate="fadeInUp"
+                        >
+                          <div class="counter-box">
+                            <i
+                              class="fa fa-trophy counter-icon"
+                              aria-hidden="true"
+                            ></i
+                            ><span class="count-number">32</span> Awards Won
+                          </div>
+                        </li>
+                        <li
+                          class="glide__slide animate"
+                          data-animate="fadeInUp"
+                        >
+                          <div class="counter-box">
+                            <i
+                              class="fa fa-graduation-cap counter-icon"
+                              aria-hidden="true"
+                            ></i
+                            ><span class="count-number">4</span> Degrees
+                          </div>
+                        </li>
+                        <li
+                          class="glide__slide animate"
+                          data-animate="fadeInUp"
+                        >
+                          <div class="counter-box">
+                            <i
+                              class="fa fa-desktop counter-icon"
+                              aria-hidden="true"
+                            ></i
+                            ><span class="count-number">12</span> Working Years
+                          </div>
+                        </li>
+                        <li
+                          class="glide__slide animate"
+                          data-animate="fadeInUp"
+                        >
+                          <div class="counter-box">
+                            <i
+                              class="fa fa-support counter-icon"
+                              aria-hidden="true"
+                            ></i
+                            ><span class="count-number">6</span> Team Members
+                          </div>
+                        </li>
+                        <li>
+                          <div class="counter-box">
+                            <i
+                              class="fa fa-certificate counter-icon"
+                              aria-hidden="true"
+                            ></i
+                            ><span class="count-number">10</span> Certificates
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -120,7 +136,7 @@ export default {
 .facts-list {
   margin-top: 30px;
 }
-.facts-list .item {
+.counter-box {
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
@@ -130,7 +146,8 @@ export default {
   font-size: 14px;
   padding: 30px 0px;
   background: rgba(0, 0, 0, 0.25);
-}
+} 
+
 .counter-box span {
   font-size: 26px;
   font-weight: 700;

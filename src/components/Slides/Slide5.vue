@@ -9,64 +9,69 @@
           </div>
           <div class="col-md-8 offset-md-2">
             <div class="testimonials-section">
-              <div class="testimonials-slider owl-carousel">
-                <div class="item animate" data-animate="fadeInUp">
-                  <div class="testimonial-item">
-                    <div class="client-row">
-                      <img
-                        :src="profilePhoto"
-                        class="rounded-circle"
-                        alt="profile 1"
-                      />
-                    </div>
-                    <div class="testimonial-content">
-                      <h4>Sandar</h4>
-                      <p>
-                        "Ut varius leo eu mauris lacinia, eleifend posuere urna
-                        gravida. Aenean a mattis lacus."
-                      </p>
-                      <span>Managing Director</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="item animate" data-animate="fadeInUp">
-                  <div class="testimonial-item">
-                    <div class="client-row">
-                      <img
-                        :src="profilePhoto"
-                        class="rounded-circle"
-                        alt="profile 2"
-                      />
-                    </div>
-                    <div class="testimonial-content">
-                      <h4>Shinn</h4>
-                      <p>
-                        "Nam iaculis, leo nec facilisis sollicitudin, dui massa
-                        tempus odio, vitae malesuada ante elit vitae eros."
-                      </p>
-                      <span>CEO and Founder</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="item animate" data-animate="fadeInUp">
-                  <div class="testimonial-item">
-                    <div class="client-row">
-                      <img
-                        :src="profilePhoto"
-                        class="rounded-circle"
-                        alt="profile 3"
-                      />
-                    </div>
-                    <div class="testimonial-content">
-                      <h4>Marlar</h4>
-                      <p>
-                        "Etiam efficitur, tortor facilisis finibus semper, diam
-                        magna fringilla lectus, et fringilla felis urna posuere
-                        tortor."
-                      </p>
-                      <span>Chief Marketing Officer</span>
-                    </div>
-                  </div>
+              <div class="glide testimonials-slider">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img
+                            :src="profilePhoto"
+                            class="rounded-circle"
+                            alt="profile 1"
+                          />
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Sandar</h4>
+                          <p>
+                            "Ut varius leo eu mauris lacinia, eleifend posuere
+                            urna gravida. Aenean a mattis lacus."
+                          </p>
+                          <span>Managing Director</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img
+                            :src="profilePhoto"
+                            class="rounded-circle"
+                            alt="profile 2"
+                          />
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Shinn</h4>
+                          <p>
+                            "Nam iaculis, leo nec facilisis sollicitudin, dui
+                            massa tempus odio, vitae malesuada ante elit vitae
+                            eros."
+                          </p>
+                          <span>CEO and Founder</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img
+                            :src="profilePhoto"
+                            class="rounded-circle"
+                            alt="profile 3"
+                          />
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Marlar</h4>
+                          <p>
+                            "Etiam efficitur, tortor facilisis finibus semper,
+                            diam magna fringilla lectus, et fringilla felis urna
+                            posuere tortor."
+                          </p>
+                          <span>Chief Marketing Officer</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

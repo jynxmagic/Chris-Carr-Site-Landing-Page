@@ -8,102 +8,80 @@
             <h2>What I Do?</h2>
           </div>
           <div class="services-section">
-            <div class="services-list owl-carousel">
-              <div class="item animate" data-animate="fadeInUp">
-                <div class="service-box">
-                  <span class="service-icon"
-                    ><i class="fa fa-bookmark" aria-hidden="true"></i
-                  ></span>
-                  <h3>Bootstrap Themes</h3>
-                  <p>
-                    Nullam auctor, justo vitae accumsan ultrices, arcu ex
-                    molestie massa, eu maximus enim tortor vitae quam.
-                  </p>
-                </div>
-              </div>
-              <div class="item animate" data-animate="fadeInUp">
-                <div class="service-box">
-                  <span class="service-icon"
-                    ><i class="fa fa-cloud" aria-hidden="true"></i
-                  ></span>
-                  <h3>HTML5 Coding</h3>
-                  <p>
-                    Nullam auctor, justo vitae accumsan ultrices, arcu ex
-                    molestie massa, eu maximus enim tortor vitae quam.
-                  </p>
-                </div>
-              </div>
-              <div class="item animate" data-animate="fadeInUp">
-                <div class="service-box">
-                  <span class="service-icon"
-                    ><i class="fa fa-desktop" aria-hidden="true"></i
-                  ></span>
-                  <h3>Fully Responsive</h3>
-                  <p>
-                    Nullam auctor, justo vitae accumsan ultrices, arcu ex
-                    molestie massa, eu maximus enim tortor vitae quam.
-                  </p>
-                </div>
-              </div>
-              <div class="item animate" data-animate="fadeInUp">
-                <div class="service-box">
-                  <span class="service-icon"
-                    ><i class="fa fa-mobile" aria-hidden="true"></i
-                  ></span>
-                  <h3>Mobile Ready</h3>
-                  <p>
-                    Nullam auctor, justo vitae accumsan ultrices, arcu ex
-                    molestie massa, eu maximus enim tortor vitae quam.
-                  </p>
-                </div>
-              </div>
-              <div class="item animate" data-animate="fadeInUp">
-                <div class="service-box">
-                  <span class="service-icon"
-                    ><i class="fa fa-comments" aria-hidden="true"></i
-                  ></span>
-                  <h3>Fast Support</h3>
-                  <p>
-                    Nullam auctor, justo vitae accumsan ultrices, arcu ex
-                    molestie massa, eu maximus enim tortor vitae quam.
-                  </p>
-                </div>
-              </div>
-              <div class="item animate" data-animate="fadeInUp">
-                <div class="service-box">
-                  <span class="service-icon"
-                    ><i class="fa fa-database" aria-hidden="true"></i
-                  ></span>
-                  <h3>24-hour Up Time</h3>
-                  <p>
-                    Nullam auctor, justo vitae accumsan ultrices, arcu ex
-                    molestie massa, eu maximus enim tortor vitae quam.
-                  </p>
-                </div>
-              </div>
-              <div class="item animate" data-animate="fadeInUp">
-                <div class="service-box">
-                  <span class="service-icon"
-                    ><i class="fa fa-bell" aria-hidden="true"></i
-                  ></span>
-                  <h3>Instant Upgrades</h3>
-                  <p>
-                    Nullam auctor, justo vitae accumsan ultrices, arcu ex
-                    molestie massa, eu maximus enim tortor vitae quam.
-                  </p>
-                </div>
-              </div>
-              <div class="item animate" data-animate="fadeInUp">
-                <div class="service-box">
-                  <span class="service-icon"
-                    ><i class="fa fa-camera" aria-hidden="true"></i
-                  ></span>
-                  <h3>Always Monitoring</h3>
-                  <p>
-                    Nullam auctor, justo vitae accumsan ultrices, arcu ex
-                    molestie massa, eu maximus enim tortor vitae quam.
-                  </p>
-                </div>
+            <div class="glide services-list">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide animate" data-animate="fadeInUp">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="service-box">
+                        <span class="service-icon"
+                          ><i class="fa fa-bookmark" aria-hidden="true"></i
+                        ></span>
+                        <h3>Bootstrap Themes</h3>
+                        <p>
+                          Nullam auctor, justo vitae accumsan ultrices, arcu ex
+                          molestie massa, eu maximus enim tortor vitae quam.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide animate" data-animate="fadeInUp">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="service-box">
+                        <span class="service-icon"
+                          ><i class="fa fa-desktop" aria-hidden="true"></i
+                        ></span>
+                        <h3>Fully Responsive</h3>
+                        <p>
+                          Nullam auctor, justo vitae accumsan ultrices, arcu ex
+                          molestie massa, eu maximus enim tortor vitae quam.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide animate" data-animate="fadeInUp">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="service-box">
+                        <span class="service-icon"
+                          ><i class="fa fa-mobile" aria-hidden="true"></i
+                        ></span>
+                        <h3>Mobile Ready</h3>
+                        <p>
+                          Nullam auctor, justo vitae accumsan ultrices, arcu ex
+                          molestie massa, eu maximus enim tortor vitae quam.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide animate" data-animate="fadeInUp">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="service-box">
+                        <span class="service-icon"
+                          ><i class="fa fa-comments" aria-hidden="true"></i
+                        ></span>
+                        <h3>Fast Support</h3>
+                        <p>
+                          Nullam auctor, justo vitae accumsan ultrices, arcu ex
+                          molestie massa, eu maximus enim tortor vitae quam.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="service-box">
+                        <span class="service-icon"
+                          ><i class="fa fa-database" aria-hidden="true"></i
+                        ></span>
+                        <h3>24-hour Up Time</h3>
+                        <p>
+                          Nullam auctor, justo vitae accumsan ultrices, arcu ex
+                          molestie massa, eu maximus enim tortor vitae quam.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

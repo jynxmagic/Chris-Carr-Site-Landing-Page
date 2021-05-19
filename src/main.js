@@ -4,7 +4,6 @@ import router from "./router";
 
 //css
 import "./assets/general.css";
-import "./assets/fullpage.min.css";
 
 //fontawesome
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -22,8 +21,6 @@ library.add(faTwitter);
 library.add(faLinkedin);
 library.add(faInstagram);
 
-//animations
-import "animate.css";
 
 createApp(App)
   .use(router)

@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="navbar">
         <a href="#" id="logo" title="Elegance by TemplateMo"> Elegance </a>
-        <div class="navigation-row">
+        <div class="navigation-row row">
           <nav id="navigation">
             <button type="button" class="navbar-toggle">
               <i class="fa fa-bars"></i>

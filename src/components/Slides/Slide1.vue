@@ -53,7 +53,7 @@ export default {
 }
 .welcome-title {
   font-weight: 700;
-  font-size: 120px;
+  font-size: 3em;
   margin-bottom: 10px;
   letter-spacing: 0.02em;
 }

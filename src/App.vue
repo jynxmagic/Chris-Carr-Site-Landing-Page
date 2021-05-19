@@ -1,5 +1,5 @@
 <template>
-  <div v-on:scroll.passive="scrollEvent" id="app">
+  <div id="app">
     <div id="video">
       <div :class="fadeOut">
         <div class="preloader-bounce">
@@ -14,24 +14,19 @@
         <source v-bind:src="bgVid" type="video/mp4" />
       </video>
 
-      <div id="fullpage" class="fullpage-default">
         <router-view />
-        <socials />
-      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import Socials from "./components/Socials.vue";
 import { onMounted, ref } from "vue";
 
 export default {
   name: "app",
   components: {
     Header,
-    Socials,
   },
   setup() {
     let bgVid = ref(require("@/assets/images/video-bg.mp4"));
@@ -41,13 +36,7 @@ export default {
       fadeOut = "fadeOut";
     });
 
-    let scrollEvent = (event) => {
-      console.log(event);
-    };
-
-    document.addEventListener("scroll", scrollEvent);
-
-    return { bgVid, fadeOut, scrollEvent };
+    return { bgVid, fadeOut };
   },
 };
 </script>

@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div id="fullpage" class="fullpage-default">
+    <socials />
     <Slide1 />
     <Slide2 />
     <Slide3 />
@@ -18,6 +19,8 @@ import Slide4 from "../components/Slides/Slide4.vue";
 import Slide5 from "../components/Slides/Slide5.vue";
 import Slide6 from "../components/Slides/Slide6.vue";
 import Slide7 from "../components/Slides/Slide7.vue";
+import Socials from "../components/Socials.vue";
+
 
 export default {
   name: "Home",
@@ -29,6 +32,7 @@ export default {
     Slide5,
     Slide6,
     Slide7,
+    Socials,
   },
   setup() {},
 };

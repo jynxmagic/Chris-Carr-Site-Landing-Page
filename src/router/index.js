@@ -1,25 +1,26 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Home from "@/views/Home.vue";
-import Admin from "@/views/Admin.vue";
-import CreateBlog from "@/views/CreateBlog.vue";
+
+const HomeView = () => import("@/views/Home.vue");
+const AdminView = () => import("@/views/Admin.vue");
+const CreateBlogView = () => import("@/views/CreateBlog.vue");
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home,
+    component: HomeView,
   },
   {
     path: "/admin",
     name: "Admin",
-    component: Admin,
+    component: AdminView,
   },
   {
     path: "/createBlogPost",
     name: "createBlog",
-    component: CreateBlog,
-    props: true
-    }
+    component: CreateBlogView,
+    props: true,
+  },
 ];
 
 const router = createRouter({

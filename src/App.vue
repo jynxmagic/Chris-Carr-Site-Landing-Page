@@ -10,11 +10,10 @@
       </div>
       <Header />
 
-      <video autoplay muted loop id="myVideo">
-        <source v-bind:src="bgVid" type="video/mp4" />
-      </video>
-
-        <router-view />
+      <div class="imgBackgroundContainer">
+        <img :src="bgImg" id="imgBackground" />
+      </div>
+      <router-view />
     </div>
   </div>
 </template>
@@ -29,7 +28,7 @@ export default {
     Header,
   },
   setup() {
-    let bgVid = ref(require("@/assets/images/video-bg.mp4"));
+    let bgImg = ref(require("@/assets/images/img-bg.jpeg"));
     let fadeOut = ref("");
 
     onMounted(() => {
@@ -38,20 +37,24 @@ export default {
       });
     });
 
-    return { bgVid, fadeOut };
+    return { bgImg, fadeOut };
   },
 };
 </script>
 
 <style>
-video {
+#imgBackground {
+  object-fit: cover;
+  object-position: 100%;
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
 }
-#video:after {
+
+
+.imgBackgroundContainer:after {
   content: "";
   opacity: 0.75;
   background: #4096ee; /* Old browsers */
